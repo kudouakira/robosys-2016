@@ -1,9 +1,15 @@
 # robosys-2016
 
 ##ロボットシステム学：課題１
-* 内容  
-  ０〜５の数字をデバイスに書き込む  
+* ０〜５の数字をデバイスに書き込む  
   書き込まれた数字の回数分LEDを点滅させる
+
+---------
+$ git clone https://github.com/kudouakira/robosys-2016.git  
+$ cd robosys-2016/  
+$ make  
+$ sudo insmod LED.ko  
+---------
 
 ----------
   
